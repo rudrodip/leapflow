@@ -2,9 +2,15 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 export default function Integration4() {
-  const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  const [isSafari, setIsSafari] = useState(false);
+
+  useEffect(() => {
+    const safari = /^((?!chrome|android).)*safari/i.test(navigator?.userAgent);
+    setIsSafari(safari);
+  }, [])
 
   return (
     <div className="relative w-full h-full flex flex-col justify-end p-2 md:p-5">
