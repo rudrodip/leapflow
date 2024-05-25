@@ -16,7 +16,7 @@ export default async function MarketingLayout({
         <DefaultNavbar />
       </header>
       <Mininav />
-      <main className="flex-1 px-2 md:px-0">
+      <main className="flex-1">
         {children}
       </main>
       <div className="w-full my-12 md:my-24 lg:my-32">
