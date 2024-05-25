@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { IconProps } from "@radix-ui/react-icons/dist/types";
 import Image from "next/image";
 
@@ -17,7 +18,8 @@ export const Icons = {
         alt="Logo"
         width={width}
         height={height}
-        className={className}
+        className={cn(className, "w-auto h-auto")}
+        priority
       />
     );
   },
