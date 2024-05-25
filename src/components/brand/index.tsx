@@ -78,7 +78,7 @@ export default function Brand() {
             <h1>Increase your efficiency with ease,</h1>
             <h1>and transform your workflow.</h1>
           </div>
-          <CTAButton className="shine shine-anim bg-themePrimary text-white/70 hover:bg-indigo-700" text="Join waitlist" link="/#waitlist-form" />
+          <CTAButton className="shine shine-anim" text="Join waitlist" link="/#waitlist-form" />
         </div>
       </HoverBorderGradient>
     </section>
