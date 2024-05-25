@@ -119,8 +119,8 @@ export default function Hero() {
         >
           <div className="w-full h-full overflow-hidden flex justify-center items-center rounded-xl lg:rounded-2xl">
             <Image
-              width={600}
-              height={400}
+              width={1920}
+              height={1080}
               alt="dashboard"
               ref={imageRef} 
               src="/dashboard.png"
