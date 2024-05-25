@@ -14,3 +14,15 @@ export const generateRandomString = (length: number) => {
   }
   return result;
 };
+
+export const isActiveCategory = (categoryPath: string, currentPath: string, route: string) => {
+  const relativePath = currentPath.replace(route, "");
+  if (relativePath === "" && categoryPath === "/") {
+    return true;
+  }
+  if (categoryPath !== "/" && currentPath.startsWith(route + categoryPath)) {
+    return true;
+  }
+
+  return false;
+};
