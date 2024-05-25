@@ -23,7 +23,7 @@ const DashboardSidebar = () => {
           ticket in my Jira general issue project.
         </p>
       </div>
-      <div className="bg-black/40 rounded-[inherit] p-2 md:p-3 border border-transparent group-hover/grid3:border-[var(--theme-color)] group-hover/grid3:shadow-2xl duration-300 delay-75 transition-all transform-gpu ease-in-out">
+      <div className="bg-black/40 rounded-[inherit] p-2 md:p-3 border border-transparent group-hover/grid3:border-themePrimary group-hover/grid3:shadow-2xl duration-300 delay-75 transition-all transform-gpu ease-in-out">
         <div className="flex items-center gap-2">
           <Icons.Globe />
           <h1 className="text-sm">Create a ticket trigger workflow</h1>
