@@ -96,7 +96,7 @@ export const Icons = {
     className?: string;
   }) {
     return (
-      <img
+      <Image
         src="/integrations/discord.svg"
         alt="discord"
         width={width}
@@ -115,7 +115,7 @@ export const Icons = {
     className?: string;
   }) {
     return (
-      <img
+      <Image
         src="/integrations/gmail.svg"
         alt="Logo"
         width={width}
@@ -134,7 +134,7 @@ export const Icons = {
     className?: string;
   }) {
     return (
-      <img
+      <Image
         src="/integrations/trello.svg"
         alt="Logo"
         width={width}
@@ -153,7 +153,7 @@ export const Icons = {
     className?: string;
   }) {
     return (
-      <img
+      <Image
         src="/integrations/linear.svg"
         alt="Logo"
         width={width}
@@ -172,7 +172,7 @@ export const Icons = {
     className?: string;
   }) {
     return (
-      <img
+      <Image
         src="/integrations/slack.svg"
         alt="Logo"
         width={width}
@@ -191,7 +191,7 @@ export const Icons = {
     className?: string;
   }) {
     return (
-      <img
+      <Image
         src="/integrations/notion.svg"
         alt="Logo"
         width={width}
