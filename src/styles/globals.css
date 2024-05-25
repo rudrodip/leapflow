@@ -94,7 +94,7 @@
   background-image: radial-gradient(
     ellipse at center,
     transparent 50%,
-    var(--theme-color) 250%
+    var(--theme-primary) 250%
   );
   background-size: 100% 100%;
   transition: all 0.3s ease-in-out;
