@@ -157,9 +157,8 @@
 
 
 /* tailwind styles */
-
 .theme-gradient {
-  @apply bg-gradient-to-r from-[var(--theme-color)] to-indigo-200 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-themePrimary to-indigo-200 bg-clip-text text-transparent;
 }
 
 .head-text {
